@@ -1,0 +1,27 @@
+.mainContainer {
+    height: 20%;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    padding: 4px 4px;
+  border-radius: 6px;
+  background-color: var(--secondary-color);
+  }
+  
+  .spacer {
+    width: 4px;
+    height: 4px;
+ 
+  }
+  @media screen and (min-width: 320px) {
+    .mainContainer {
+      flex-direction: row;
+      margin-top: 0px;
+    }
+  }
+.input {
+  border-radius: 6px;
+
+}

@@ -1,0 +1,20 @@
+.mainContainer {
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #00fd00;
+  position: fixed;
+  height: 104px;
+  width: 80vw;
+  top: 8px;
+  margin-left: 130px;
+  z-index: 9999; /* Sie können den Wert nach Bedarf anpassen */
+  position: fixed; /* Stellen Sie sicher, dass die Position auf 'relative', 'absolute', 'fixed' oder 'sticky' gesetzt ist */
+}
+
+.spacer {
+  flex: 1;
+  display: none;
+}
